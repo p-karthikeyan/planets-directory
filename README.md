@@ -3,7 +3,7 @@ Planets Directory
 Description:
 The Planets Directory project is a web application built using ReactJS that fetches and displays information about planets from the Star Wars API (SWAPI). It provides a user-friendly interface for browsing through various planets in the Star Wars universe, along with details about each planet's climate, population, terrain, and residents.
 
-Live Demo:
+Live Demo:https://aquera-planets-directory.vercel.app/
 
 Installation:
 
