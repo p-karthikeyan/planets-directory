@@ -1,0 +1,34 @@
+.planet-card {
+    z-index: 100;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+    color: #fff;
+    text-align: left;
+    cursor: pointer;
+    background-color: #004043;
+    animation: slideIn 1s ease-in-out forwards;
+    opacity: 0;
+  }
+  
+  .planet-card h2 {
+    margin-top: 0;
+    color: #219f16;
+  }
+  
+  .planet-card h3 {
+    margin-top: 20px;
+  }
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
